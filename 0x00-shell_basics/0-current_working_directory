@@ -3,5 +3,5 @@
 
 # Print the present working directory
 
-pwd
+echo $(pwd)
 
