@@ -1,7 +1,3 @@
 #!/bin/bash
 
-dir=$(pwd)
-echo $dir
-
-#prints the present working directory
-
+pwd
