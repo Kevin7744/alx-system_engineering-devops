@@ -3,3 +3,4 @@
 sudo /etc/init.d/apache2 start
 cp /etc/passwd /tmp/
 echo "Hello Holberton" > /var/www/html/index.html
+ln -sf /var/www/html/index.html /var/www/html/index
