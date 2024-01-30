@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# Fix my server with these magic 2 lines
+# initializes the system
+sudo /etc/init.d/apache2 start
 cp /etc/passwd /tmp/
-echo OK > /tmp/isworking
+echo "Hello Holberton" > /var/www/html/index.html
